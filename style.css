@@ -123,3 +123,35 @@ ul li span {
 ul li span:hover {
     color: #0240a5;
 }
+
+
+/* Media query for mobile responsiveness*/
+
+@media only screen and (max-width: 768px) {
+    
+    .todo-app {
+        width: 100%;
+        max-width: 540px;
+        background-color: #f1b9b9;
+        margin: 50px auto 20px;
+        padding: 40px 30px 70px;
+        border-radius: 20px;
+        box-shadow: -8px -8px 15px rgba(92, 28, 28, 0.705), 8px 8px 15px rgba(41, 61, 97, 0.87);
+    }
+    .row input {
+        font-size: 0.9rem;
+    }
+    .row button {
+        border: none;
+        outline: none;
+        padding: 10px 30px;
+        border-radius: 30px;
+        background-color: #07224e;
+        color: #f1b9b9;
+        font-size: 1rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        box-shadow: 0 0 3px 3px rgba(241, 75, 75, 0.726);
+    }
+    
+}
